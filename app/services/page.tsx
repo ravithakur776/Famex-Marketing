@@ -117,7 +117,10 @@ export default function ServicesPage() {
       >
         <div className="flex flex-wrap gap-3">
           <LinkButton href="/contact">Start a Project</LinkButton>
-          <LinkButton href="/works" variant="outline">See Real Work</LinkButton>
+          {/* TEMPORARILY DISABLED: Works CTA.
+              TODO: Re-enable once portfolio assets are finalized.
+              <LinkButton href="/works" variant="outline">See Real Work</LinkButton> */}
+          <LinkButton href="/plans" variant="outline">Explore Plans</LinkButton>
         </div>
       </PageHero>
 

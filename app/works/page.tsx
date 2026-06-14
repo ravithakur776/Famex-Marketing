@@ -1,3 +1,15 @@
+import { redirect } from "next/navigation";
+
+export default function WorksPage() {
+  // TEMPORARILY DISABLED: Works page rendering.
+  // TODO: Restore the preserved implementation below once portfolio assets are finalized.
+  redirect("/");
+}
+
+/*
+TEMPORARILY DISABLED: Complete Works page implementation.
+TODO: Re-enable once portfolio assets are finalized.
+
 import type { Metadata } from "next";
 import { StructuredData } from "@/components/common/structured-data";
 import { PageCta, PageHero } from "@/components/layout/agency-page";
@@ -13,7 +25,7 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/works"
 });
 
-export default function WorksPage() {
+export function EnabledWorksPage() {
   return (
     <>
       <StructuredData
@@ -37,3 +49,4 @@ export default function WorksPage() {
     </>
   );
 }
+*/

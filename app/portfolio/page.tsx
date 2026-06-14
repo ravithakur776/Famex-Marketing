@@ -1,5 +1,7 @@
 import { redirect } from "next/navigation";
 
 export default function PortfolioRedirectPage() {
-  redirect("/works");
+  // TEMPORARILY DISABLED: Legacy portfolio access.
+  // TODO: Redirect to /works once the Works feature is re-enabled.
+  redirect("/");
 }

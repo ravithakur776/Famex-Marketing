@@ -389,7 +389,9 @@ export const footerQuickLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "Plans", href: "/plans" },
-  { label: "Works", href: "/works" },
+  // TEMPORARILY DISABLED: Works footer link.
+  // TODO: Re-enable once portfolio assets are finalized.
+  // { label: "Works", href: "/works" },
   { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" }
 ] as const;
@@ -412,7 +414,9 @@ export const navItems = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "Plans", href: "/plans" },
-  { label: "Works", href: "/works" },
+  // TEMPORARILY DISABLED: Works navigation item.
+  // TODO: Re-enable once portfolio assets are finalized.
+  // { label: "Works", href: "/works" },
   { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" }
 ];

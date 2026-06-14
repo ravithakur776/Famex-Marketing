@@ -30,7 +30,10 @@ export default function PlansPage() {
       >
         <div className="flex flex-wrap gap-3">
           <LinkButton href="/contact">Find Your Plan</LinkButton>
-          <LinkButton href="/works" variant="outline">See Proof of Work</LinkButton>
+          {/* TEMPORARILY DISABLED: Works CTA.
+              TODO: Re-enable once portfolio assets are finalized.
+              <LinkButton href="/works" variant="outline">See Proof of Work</LinkButton> */}
+          <LinkButton href="/services" variant="outline">Explore Services</LinkButton>
         </div>
       </PageHero>
 
